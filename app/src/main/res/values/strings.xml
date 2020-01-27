@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">TouchnGo</string>
+    <string name="intro_english">Welcome to TouchnGo the most exciting to hit your phone since Tinder.TouchnGo allows users to find locations in Dresden based on semantic descriptions. Maybe find a place in Dresden for your next Tinder date. You can always find a park next to a beer store next to the bus line number 62. Have fun :)</string>
+    <string name="intro_chinese">这款TouchnGo安卓应用由Jack,Lin 和Rosie共同开发。通过输入相关的位置信息，应用能够帮助用户找到曾经去过但记忆模糊的历史位置。现在该应用仅限于在德累斯顿失去使用</string>
+    <string name="intro_german">Hallo! Du befindest dich in der App von Lin, Jack und Rosie! Sie erlaubt Dir auf der Basis von Keywords einen Platz bzw. einen Ort zu finden, an den Du dich vielleicht ein wenig, jedoch nicht ganz genau erinnern kannst. Vielleicht wenn Du das eine oder andere Bier zu viel getrunken hast ;-) Gib einfach im Suchfenster die Parameter ein, die Dir noch bekannt sind und lass Dir eine Auswahl an Plätzen ausgeben. Google Link ist inklusiv, falls Du dich direkt zum gesuchten Platz navigieren lassen möchtest.</string>
+    <string name="button_id">submit</string>
+
+
+    <string-array name="bus_line">
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>66</item>
+        <item>75</item>
+        <item>85</item>
+        <item>261</item>
+        <item>333</item>
+        <item>352</item>
+        <item>360</item>
+        <item>366</item>
+        <item>424</item>
+    </string-array>
+
+    <string-array name="street_names">
+        <item>Lennéstraße</item>
+        <item>Wiener Platz</item>
+        <item>Lingnerplatz</item>
+        <item>Prager Straße</item>
+        <item>Theaterplatz</item>
+        <item>Neumarkt</item>
+        <item>Schloßstraße</item>
+        <item>Sophienstraße</item>
+        <item>Altmarkt</item>
+        <item>An der Kreuzkirche</item>
+        <item>Rathausplatz</item>
+        <item>Königsbrücker Straße</item>
+        <item>Görlitzer Straße</item>
+        <item>Hauptallee</item>
+        <item>Fritz-Löffler-Straße</item>
+        <item>Zellescher Weg</item>
+        <item>Nürnberger Straße</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>bakery</item>
+        <item>bank</item>
+        <item>bar</item>
+        <item>cafe</item>
+        <item>church</item>
+        <item>culture</item>
+        <item>hairdresser</item>
+        <item>hotel</item>
+        <item>library</item>
+        <item>museum</item>
+        <item>park</item>
+        <item>pharmacy</item>
+        <item>pub</item>
+        <item>resteraurant</item>
+        <item>school</item>
+        <item>shop</item>
+        <item>sport</item>
+        <item>supermarket</item>
+        <item>theater</item>
+        <item>transport</item>
+        <item>city</item>
+        <item>education</item>
+        <item>park</item>
+    </string-array>
+</resources>

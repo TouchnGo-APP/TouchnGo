@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".search">
+
+    <TextView
+        android:id="@+id/questionformethods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="How you reached the destination ?"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/bus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="By Bus"
+        android:textSize="15sp"/>
+
+    <CheckBox
+        android:id="@+id/others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By Car/Bicycle/Foot"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_view_bus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="Bus Line"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/t_bus_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="Select the bus line"
+        android:completionThreshold="1"
+        android:dropDownAnchor="@id/text_view_class"
+        android:hint="Type in the bus line number"
+        android:popupBackground="@color/colorAccent"
+        android:dropDownVerticalOffset = "-100dp"/>
+
+    <TextView
+        android:id="@+id/text_view_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="Street Name"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp" />
+    <AutoCompleteTextView
+        android:id="@+id/t_street_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:dropDownAnchor="@id/text_view_class"
+        android:hint="Type in the street name"
+        android:popupBackground="@color/colorAccent"
+        android:dropDownVerticalOffset = "-100dp"/>
+
+    <TextView
+        android:id="@+id/text_view_nearby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="Type of destination you remember nearby?"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <AutoCompleteTextView
+        android:id="@+id/t_near_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:dropDownAnchor="@id/text_view_class"
+        android:hint="Type in destination you remember nearby"
+        android:popupBackground="@color/colorAccent"
+        android:dropDownVerticalOffset = "-100dp"/>
+
+    <TextView
+        android:id="@+id/text_view_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="What type of destination are you searching?"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <AutoCompleteTextView
+        android:id="@+id/t_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:dropDownAnchor="@id/text_view_class"
+        android:hint="Type in the class of the destination"
+        android:popupBackground="@color/colorAccent"
+        android:dropDownVerticalOffset = "-100dp"/>
+
+
+    <ImageButton
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/submit" />
+
+</LinearLayout>
